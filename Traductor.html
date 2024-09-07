@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convertidor de Números a Letras</title>
-    <script src="Traductor.js"></script>
+    <title>Conversor de Números</title>
+    <link rel="stylesheet" href="diseno.css"> 
 </head>
 <body>
-    <script>
-        const numero = prompt("Introduce un número:");
-        alert(numeroALetras(parseInt(numero)));
-    </script>
+    <div class="container">
+        <h1>TALLER UNIDAD 1 GIT</h1>
+        <h2>Jhon Kevin Jacome Ortega</h2>
+        <p>Universidad de Nariño</p>
+        <p>Ingeniería de Sistemas</p>
+        <p>Diplomado de actualización en nuevas tecnologías para el desarrollo de Software</p>
+
+        <input type="number" id="numInput" placeholder="Ingrese un número">
+        <button onclick="mostrarResultado()">Convertir</button>
+
+        <div id="resultado" class="result"></div>
+    </div>
+
+    <script src="Traductor.js"></script>
 </body>
 </html>
